@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>etgar</title>
+    <style>
+        .green {
+        background-color: green;
+        text-align: center;
+        font-size: larger;
+        }
+        .orange {
+        background-color: orange;
+        text-align: center;
+        font-size: larger;
+        }
+        .pink {
+        background-color: pink;
+        text-align: center;
+        font-size: larger;
+        }
+        </style>
+</head>
+<body>
+    
+<script>
+var a, b, c
+a = parseInt(prompt("enter number a"))
+b = parseInt(prompt("enter number b"))
+c = parseInt(prompt("enter number c"))
+
+var  max = Math.max(a, b, c)
+var min = Math.min(a, b, c)
+
+document.write("<div class='green'>" + max + "</div>");
+document.write("<div class='orange'>" + (a + b + c - max - min) + "</div>");
+document.write("<div class='pink'>" + min + "</div>");
+
+</script>
+
+
+
+
+
+
+</body>
+</html>
